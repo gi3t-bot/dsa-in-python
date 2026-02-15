@@ -6,3 +6,16 @@ def fib(num):
 
 
 fib(7)
+
+
+fibo = []
+n = 5
+i = -1
+j = 1
+
+for _ in range(n):
+    add = i + j
+    fibo.append(add)
+    i, j = j , add 
+    
+print(fibo)
