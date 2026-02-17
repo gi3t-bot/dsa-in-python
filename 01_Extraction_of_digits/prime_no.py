@@ -9,3 +9,15 @@ if count == 0:
 
 else:
     print("Not a prime")
+    
+
+num = 10
+# is_prime = False
+
+for i in range(2, num):
+    if num % i == 0:
+        print("not prime")
+        break
+        
+    else:
+        print("prime")
