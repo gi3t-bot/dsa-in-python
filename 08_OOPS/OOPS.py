@@ -33,12 +33,12 @@ class Student:
     # The functions that are inside the class are known as Methods
     # but when defining the function inside the class, we have to write "self" inside the function as a parameter
     # self is like the reference Python uses to connect a method call (info) to the correct object (student_1).
-    # self is like a connecting wire for the python that tells the python that s1 is Rahul...s2 is Aman
+    # self is like a connecting wire for the python that tells the python that s1 is Prajjwal...s2 is Aman
 
     # Python do not stores “s1 is Rahul” permanently inside self.
     # self temporarily refers to object that is calling the method at that time...
 
-    # for example : When someone says "I am speaking".....that "I" tells us who is speaking....
+    # for example : When someone says "I am going".....that "I" tells us who is speaking....
     # and "I" changes based on "Who says it".. or in other words "Who use it"
 
     def info(self):
@@ -69,8 +69,9 @@ student_2 = Student()
 # student_1.name = "Prajjwal"
 # student_1.id = 121
 # student_1.sex = "Male"
-# student_1.phn_no = 9045746402
+# student_1.phn_no = 9045
 # student_1.age = 24
+
 student_1.set_info()
 # student_1.info()
 # print()
